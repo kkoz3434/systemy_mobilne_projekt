@@ -12,6 +12,9 @@
       <excludeFolder url="file://$MODULE_DIR$/flutter/mobilne_projekt_video/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/flutter/mobilne_projekt_video/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/flutter/mobilne_projekt_video/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/mobilne_projekt_animation/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/mobilne_projekt_animation/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/mobilne_projekt_animation/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
