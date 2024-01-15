@@ -14,7 +14,7 @@ import java.time.Duration
 
 class MainActivity : AppCompatActivity() {
     var start = 2
-    var end = 100000
+    var end = 10000
 
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {

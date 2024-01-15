@@ -62,27 +62,27 @@ class MainActivity : AppCompatActivity() {
             ) {
                 Log.i("FAILURE", "Cannot get localization permissions")
             }
-            for (i in 1..100) {
-                fusedLocationClient.getCurrentLocation(
-                    Priority.PRIORITY_HIGH_ACCURACY,
-                    object : CancellationToken() {
-                        override fun onCanceledRequested(p0: OnTokenCanceledListener) =
-                            CancellationTokenSource().token
 
-                        override fun isCancellationRequested() = false
-                    }).addOnSuccessListener { location: Location? ->
-                    if (location != null) {
-                        val resultTV: TextView = findViewById(R.id.resultTV)
-                        resultTV.text =
-                            "Location: Longtitude: ${location.longitude.toString()}   Latitude: ${location.latitude.toString()}"
+            fusedLocationClient.getCurrentLocation(
+                Priority.PRIORITY_HIGH_ACCURACY,
+                object : CancellationToken() {
+                    override fun onCanceledRequested(p0: OnTokenCanceledListener) =
+                        CancellationTokenSource().token
 
-                        val endTime = LocalDateTime.now()
-                        val timeTV: TextView = findViewById(R.id.timeTV)
+                    override fun isCancellationRequested() = false
+                }).addOnSuccessListener { location: Location? ->
+                if (location != null) {
+                    val resultTV: TextView = findViewById(R.id.resultTV)
+                    resultTV.text =
+                        "Location: Longtitude: ${location.longitude.toString()}   Latitude: ${location.latitude.toString()}"
 
-                        timeTV.text = Duration.between(startTime, endTime).toMillis().toString()
-                    }
+                    val endTime = LocalDateTime.now()
+                    val timeTV: TextView = findViewById(R.id.timeTV)
+
+                    timeTV.text = Duration.between(startTime, endTime).toMillis().toString()
                 }
             }
+
 
         }
     }

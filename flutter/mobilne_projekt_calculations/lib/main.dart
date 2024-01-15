@@ -21,7 +21,7 @@ class _LocationScreenState extends State<LocationScreen> {
   late Duration time;
   int primeNumbers = 0;
   int start= 1;
-  int end= 100000;
+  int end= 10000;
 
   @override
   void initState() {

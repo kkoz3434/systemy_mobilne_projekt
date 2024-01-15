@@ -55,9 +55,9 @@ class _LocationScreenState extends State<LocationScreen> {
 
       var _locationData;
 
-      for (int i = 0; i < 1000; i++) {
-        _locationData = await location.getLocation();
-      }
+
+      _locationData = await location.getLocation();
+
       setState(() {
         locationData = _locationData;
         print("### ${locationData?.latitude},${locationData?.longitude}");
@@ -79,9 +79,9 @@ class _LocationScreenState extends State<LocationScreen> {
 
       var _locationData;
 
-      for (int i = 0; i < 100; i++) {
-        _locationData = await location.getLocation();
-      }
+
+      _locationData = await location.getLocation();
+      
 
       final endTime = DateTime.now();
 
