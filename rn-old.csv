@@ -10,6 +10,17 @@ react-native-old;ios;gps;0.308;6;30.5;
 react-native-old;ios;gps;0.325;9;30.1;
 react-native-old;ios;gps;0.306;6;30.6;
 
+react-native-old;ios;gps;0.205;6;30.8
+react-native-old;android;gps;0.874;8;22.5;
+react-native-old;android;gps;0.856;8;25;
+react-native-old;android;gps;0.865;9;24.3;
+react-native-old;android;gps;0.745;14;18;
+react-native-old;android;gps;0.896;11;23.5;
+react-native-old;android;gps;0.845;8;24.3;
+react-native-old;android;gps;0.745;12;27.4;
+react-native-old;android;gps;0.783;10;21.3;
+react-native-old;android;gps;0.823;7;24;
+
 framework;platform;app;time;cpu_percent;ram_MB
 react-native-old;ios;calculations;15583.490;100;28.3;
 react-native-old;ios;calculations;15598.725;100;28.7;
@@ -21,10 +32,22 @@ react-native-old;ios;calculations;15609.223;100;28.5;
 react-native-old;ios;calculations;15605.563;100;28.2;
 react-native-old;ios;calculations;15600.735;100;28.3;
 react-native-old;ios;calculations;15601.543;100;28.5;
-react-native-old;ios;calculations;15595.314;100;28.3;
+react-native-old;ios;calculations;15595.314;100;28.5;
+
+react-native-old;android;calculations;24585;100;20.5;
+react-native-old;android;calculations;24653;100;21.3;
+react-native-old;android;calculations;25423;100;22.5;
+react-native-old;android;calculations;25745;100;21.7;
+react-native-old;android;calculations;25234;100;19.8;
+react-native-old;android;calculations;25624;100;25.7;
+react-native-old;android;calculations;25624;100;19.9;
+react-native-old;android;calculations;24263;100;22.6;
+react-native-old;android;calculations;25374;100;27.2;
+react-native-old;android;calculations;25689;100;28.8;
+react-native-old;android;calculations;25144;100;24.8;
 
 framework;platform;app;time;cpu_percent;ram_MB
-react-native-old;ios;video;5042.512;33;28.9;
+react-native-old;ios;video;242.512;33;28.9;
 react-native-old;ios;video;135.843;24;28.8;
 react-native-old;ios;video;194.714;50;28.7;
 react-native-old;ios;video;134.415;48;28.7;
@@ -35,6 +58,18 @@ react-native-old;ios;video;134.596;31;28.8
 react-native-old;ios;video;139.930;42;28.7;
 react-native-old;ios;video;133.425;31;28.8;
 
+
+framework;platform;app;time;cpu_percent;ram_MB
+react-native-old;android;video;632;32;23;
+react-native-old;android;video;712;46;21;
+react-native-old;android;video;691;38;22;
+react-native-old;android;video;523;38;27;
+react-native-old;android;video;731;39;22;
+react-native-old;android;video;596;41;21;
+react-native-old;android;video;634;42;20;
+react-native-old;android;video;717;37;26;
+react-native-old;android;video;696;34;23;
+react-native-old;android;video;531;44;21;
 
 framework;platform;app;time;cpu_percent;ram_MB
 react-native-old;ios;animation;5042;10;28.7;
@@ -48,4 +83,17 @@ react-native-old;ios;animation;5052;9;28.7;
 react-native-old;ios;animation;5044;10;28.5;
 react-native-old;ios;animation;5048;10;28.7;
 react-native-old;ios;animation;5055;10;28.7;
+
+framework;platform;app;time;cpu_percent;ram_MB
+react-native-old;android;animation;5122;16;16.8;
+react-native-old;android;animation;5142;14;13.6;
+react-native-old;android;animation;5166;19;17.5;
+react-native-old;android;animation;5133;15;16.9;
+react-native-old;android;animation;5342;13;17.8;
+react-native-old;android;animation;5093;16;19.8;
+react-native-old;android;animation;5145;17;18.8;
+react-native-old;android;animation;5231;15;17.6;
+react-native-old;android;animation;5243;13;16.5;
+react-native-old;android;animation;5102;16;15.9;
+react-native-old;android;animation;5134;13;19.3;
 

@@ -11,6 +11,17 @@ react-native-new;ios;gps;0.196;15;30.6
 react-native-new;ios;gps;0.155;10;31
 react-native-new;ios;gps;0.133;11;30.5
 
+react-native-new;android;gps;0.467;14;24
+react-native-new;android;gps;0.501;18;23
+react-native-new;android;gps;0.489;16;27
+react-native-new;android;gps;0.479;16;21
+react-native-new;android;gps;0.476;15;28
+react-native-new;android;gps;0.501;16,22
+react-native-new;android;gps;0.498;15;25
+react-native-new;android;gps;0.544;14;28
+react-native-new;android;gps;0.523;18;21
+react-native-new;android;gps;0.487;17;28
+react-native-new;android;gps;0.511;15;24
 
 framework;platform;app;time;cpu_percent;ram_MB
 react-native-new;ios;calculations;15222;100;28.8;
@@ -24,6 +35,17 @@ react-native-new;ios;calculations;15580;100;28.7;
 react-native-new;ios;calculations;15606;100;29;
 react-native-new;ios;calculations;15337;100;29.1;
 
+react-native-new;android;calculations;24112;100;18.8;
+react-native-new;android;calculations;23340;100;15.2;
+react-native-new;android;calculations;25232;100;19.3;
+react-native-new;android;calculations;22034;100;20.1;
+react-native-new;android;calculations;26323;100;21;
+react-native-new;android;calculations;22356;100;22.5;
+react-native-new;android;calculations;25416;100;18;
+react-native-new;android;calculations;24624;100;19;
+react-native-new;android;calculations;26741;100;21;
+react-native-new;android;calculations;25734;100;24;
+
 framework;platform;app;time;cpu_percent;ram_MB
 react-native-new;ios;animation;5027;16;29;
 react-native-new;ios;animation;5027;12;28.9;
@@ -36,4 +58,16 @@ react-native-new;ios;animation;5028;14;28.7;
 react-native-new;ios;animation;5034;11;28.5;
 react-native-new;ios;animation;5045;13;28.7;
 react-native-new;ios;animation;5031;12;28.7;
+
+react-native-new;android;animation;5078;25;21;
+react-native-new;android;animation;5076;20;
+react-native-new;android;animation;5056;19;23.6;
+react-native-new;android;animation;5075;34;20.5;
+react-native-new;android;animation;5076;24;21.1;
+react-native-new;android;animation;5065;26;25.5;
+react-native-new;android;animation;5055;18;20.1;
+react-native-new;android;animation;5048;24;21;
+react-native-new;android;animation;5075;25;24.6;
+react-native-new;android;animation;5037;26;27;
+react-native-new;android;animation;5086;27;23;
 
