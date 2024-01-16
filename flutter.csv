@@ -11,6 +11,19 @@ flutter;android;animation;5026;1.79;57.2
 flutter;android;animation;4942;2.23;56.7
 flutter;android;animation;5019;3.43;57.2
 
+framework;platform;app;time;cpu_method_cpu_percent;ram_MB
+flutter;ios;animation;5005, 56, 120
+flutter;ios;animation;5013, 62, 113
+flutter;ios;animation;5009, 55, 115
+flutter;ios;animation;5017, 57, 116
+flutter;ios;animation;5017, 53, 114
+flutter;ios;animation;5004, 56, 111
+flutter;ios;animation;5015, 60, 121
+flutter;ios;animation;5011, 51, 118
+flutter;ios;animation;5014, 59, 113
+flutter;ios;animation;5012, 57, 110
+
+
 framework;platform;app;time;cpu_method_time_findPrimesInRange;ram_MB
 flutter;android;calculations;902;1.65;57.5
 flutter;android;calculations;960;2.39;56.6
@@ -22,6 +35,7 @@ flutter;android;calculations;911;2.40;55.2
 flutter;android;calculations;938;2.54;55.8
 flutter;android;calculations;912;2.75;55.9
 flutter;android;calculations;910;2.02;54.9
+
 
 framework;platform;app;time;cpu_method_time_fetchLocation;ram_MB
 flutter;android;gps;1408;3.31;56.2
