@@ -1,0 +1,47 @@
+framework;platform;app;time;cpu_method_cpu_percent;ram_MB
+ios;ios;calculations;41.7820;2,9.3
+ios;ios;calculations;37.5279;1,9.4
+ios;ios;calculations;37.5729;4,9.4
+ios;ios;calculations;37.2359;4,9.4
+ios;ios;calculations;36.1549;2,9.5
+ios;ios;calculations;37.5279;3,9.4
+ios;ios;calculations;34.9620;4,9.3
+ios;ios;calculations;35.4809;4,9.2
+ios;ios;calculations;36.7980;2,9.5
+ios;ios;calculations;35.1342;3,9.4
+
+framework;platform;app;time;cpu_method_cpu_percent;ram_MB
+ios;ios;animation;0.0004040; 1; 9.7
+ios;ios;animation;0.0003849; 2; 9.8
+ios;ios;animation;0.0001540; 1; 9.7
+ios;ios;animation;0.0004021; 2; 9.7
+ios;ios;animation;0.0001749; 1; 9.6
+ios;ios;animation;0.0003230; 1; 9.7
+ios;ios;animation;0.0002234; 2; 9.8
+ios;ios;animation;0.0001432; 1; 9.4
+ios;ios;animation;0.0004211; 2; 9.7
+ios;ios;animation;0.0002312; 1; 9.5
+
+framework;platform;app;time;cpu_method_cpu_percent;ram_MB
+ios;ios;calculations;0.1163;0;10
+ios;ios;calculations;0.1077;0;10
+ios;ios;calculations;0.1074;0;10
+ios;ios;calculations;0.1067;0;11
+ios;ios;calculations;0.1067;0;10
+ios;ios;calculations;0.1074;0;10
+ios;ios;calculations;0.1082;0;10
+ios;ios;calculations;0.1097;0;9
+ios;ios;calculations;0.1096;0;11
+ios;ios;calculations;0.1104;0;10
+
+framework;platform;app;time;cpu_method_cpu_percent;ram_MB
+ios;ios;gps;0.04739;0, 8.8
+ios;ios;gps;0.04777;0, 8.8
+ios;ios;gps;0.05404;0, 8.8
+ios;ios;gps;0.05337;0, 8.9
+ios;ios;gps;0.05394;0, 8.7
+ios;ios;gps;0.04640;0, 8.8
+ios;ios;gps;0.04903;0, 8.7
+ios;ios;gps;0.04981;0, 8.8
+ios;ios;gps;0.05081;0, 8.8
+
