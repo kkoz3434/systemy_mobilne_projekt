@@ -1,93 +1,39 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
 import React, {useState} from 'react';
-import {
-  StyleSheet,
-  View,
-  Text,
-  Button,
-  PermissionsAndroid,
-  Platform,
-} from 'react-native';
-import Geolocation, {GeoPosition} from 'react-native-geolocation-service';
-// Function to get permission for location
-const requestLocationPermission = async () => {
-  try {
-    const granted =
-      Platform.OS === 'android'
-        ? await PermissionsAndroid.request(
-            PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
-            {
-              title: 'Geolocation Permission',
-              message: 'Can we access your location?',
-              buttonNeutral: 'Ask Me Later',
-              buttonNegative: 'Cancel',
-              buttonPositive: 'OK',
-            },
-          )
-        : await Geolocation.requestAuthorization('whenInUse');
-    console.log('granted', granted);
-    if (granted === 'granted') {
-      console.log('You can use Geolocation');
-      return true;
-    } else {
-      console.log('You cannot use Geolocation');
-      return false;
-    }
-  } catch (err) {
-    return false;
-  }
-};
+import {StyleSheet, View, Text} from 'react-native';
+import Video from 'react-native-video';
+
 const App = () => {
-  // state to hold location
-  const [location, setLocation] = useState<GeoPosition | null>(null);
+  const background = require('./assets/video_example.mp4');
+
   const [message, setMessage] = useState('');
 
-  // function to check permissions and get Location
-  const getLocation = () => {
-    const result = requestLocationPermission();
-    result.then(res => {
-      console.log('res is:', res);
+  let startLoading: number = undefined!;
 
-      if (res) {
-        const startTime = performance.now();
-        Geolocation.getCurrentPosition(
-          position => {
-            setLocation(position);
-          },
-          error => {
-            // See error code charts below.
-            console.log(error.code, error.message);
-            setLocation(null);
-          },
-          {enableHighAccuracy: true, timeout: 15000, maximumAge: 10000},
-        );
-        const endTime = performance.now();
-        const myMessage = `Action took ${endTime - startTime} milliseconds.`;
-        console.log(myMessage);
-        setMessage(myMessage);
-      }
-    });
-    console.log(location);
-  };
   return (
     <View style={styles.container}>
-      <Text>Welcome!</Text>
-      <View
-        style={{marginTop: 10, padding: 10, borderRadius: 10, width: '40%'}}>
-        <Button title="Get Location" onPress={getLocation} />
-      </View>
-      <Text>Latitude: {location ? location.coords.latitude : null}</Text>
-      <Text>Longitude: {location ? location.coords.longitude : null}</Text>
-      <View
-        style={{marginTop: 10, padding: 10, borderRadius: 10, width: '40%'}}>
-        <Text>{message ? message : 'click Get Location'}</Text>
-      </View>
+      <Text>{message}</Text>
+      <Video
+        // Can be a URL or a local file.
+        source={background}
+        // Store reference
+        // ref={ref => {
+        //   this.player = ref;
+        // }}
+        onLoadStart={() => {
+          startLoading = performance.now();
+        }}
+        onLoad={() => {
+          const stopLoading = performance.now();
+          const myMessage = `${stopLoading - startLoading} miliseconds`;
+          console.log(myMessage);
+          setMessage(myMessage);
+        }}
+        // Callback when remote video is buffering
+        // onBuffer={onBuffer}
+        // Callback when video cannot be loaded
+        // onError={onError}
+        style={styles.backgroundVideo}
+      />
     </View>
   );
 };
@@ -96,7 +42,15 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'flex-end',
+    paddingBottom: 100,
+  },
+  backgroundVideo: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: 0,
   },
 });
 export default App;
