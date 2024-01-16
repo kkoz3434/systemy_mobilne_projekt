@@ -1,53 +1,79 @@
 framework;platform;app;time;cpu_method_time_initAnimationWidgets;ram_MB
-flutter;android;animation;5022;2.73;60.7
-flutter;android;animation;5025;1.43;57.3
-flutter;android;animation;5025;4.63;57.7
-flutter;android;animation;4961;4.23;58.7
-flutter;android;animation;5033;2.63;59.7
-flutter;android;animation;5019;1.79;58.7
-flutter;android;animation;5030;2.93;57.7
-flutter;android;animation;5037;3.73;56.2
-flutter;android;animation;5026;1.79;57.2
-flutter;android;animation;4942;2.23;56.7
-flutter;android;animation;5019;3.43;57.2
+flutter;android;animation;5022;2.73;60.7;
+flutter;android;animation;5025;1.43;57.3;
+flutter;android;animation;5025;4.63;57.7;
+flutter;android;animation;4961;4.23;58.7;
+flutter;android;animation;5033;2.63;59.7;
+flutter;android;animation;5019;1.79;58.7;
+flutter;android;animation;5030;2.93;57.7;
+flutter;android;animation;5037;3.73;56.2;
+flutter;android;animation;5026;1.79;57.2;
+flutter;android;animation;4942;2.23;56.7;
+flutter;android;animation;5019;3.43;57.2;
 
 framework;platform;app;time;cpu_method_cpu_percent;ram_MB
-flutter;ios;animation;5005, 56, 120
-flutter;ios;animation;5013, 62, 113
-flutter;ios;animation;5009, 55, 115
-flutter;ios;animation;5017, 57, 116
-flutter;ios;animation;5017, 53, 114
-flutter;ios;animation;5004, 56, 111
-flutter;ios;animation;5015, 60, 121
-flutter;ios;animation;5011, 51, 118
-flutter;ios;animation;5014, 59, 113
-flutter;ios;animation;5012, 57, 110
+flutter;ios;animation;5005; 56; 120;
+flutter;ios;animation;5013; 62; 113;
+flutter;ios;animation;5009; 55; 115;
+flutter;ios;animation;5017; 57; 116;
+flutter;ios;animation;5017; 53; 114;
+flutter;ios;animation;5004; 56; 111;
+flutter;ios;animation;5015; 60; 121;
+flutter;ios;animation;5011; 51; 118;
+flutter;ios;animation;5014; 59; 113;
+flutter;ios;animation;5012; 57; 110;
 
 
 framework;platform;app;time;cpu_method_time_findPrimesInRange;ram_MB
-flutter;android;calculations;902;1.65;57.5
-flutter;android;calculations;960;2.39;56.6
-flutter;android;calculations;934;2.34;55.0
-flutter;android;calculations;940;1.54;56.4
-flutter;android;calculations;912;2.23;54.7
-flutter;android;calculations;902;1.65;56.1
-flutter;android;calculations;911;2.40;55.2
-flutter;android;calculations;938;2.54;55.8
-flutter;android;calculations;912;2.75;55.9
-flutter;android;calculations;910;2.02;54.9
+flutter;android;calculations;902;1.65;57.5;
+flutter;android;calculations;960;2.39;56.6;
+flutter;android;calculations;934;2.34;55.0;
+flutter;android;calculations;940;1.54;56.4;
+flutter;android;calculations;912;2.23;54.7;
+flutter;android;calculations;902;1.65;56.1;
+flutter;android;calculations;911;2.40;55.2;
+flutter;android;calculations;938;2.54;55.8;
+flutter;android;calculations;912;2.75;55.9;
+flutter;android;calculations;910;2.02;54.9;
+
+framework;platform;app;time;cpu_method_cpu_percent;ram_MB
+flutter;ios;calculations;798;56;70;
+flutter;ios;calculations;814;55;58;
+flutter;ios;calculations;806;56;62;
+flutter;ios;calculations;815;59;64;
+flutter;ios;calculations;807;58;61;
+flutter;ios;calculations;812;55;67;
+flutter;ios;calculations;789;56;70;
+flutter;ios;calculations;823;61;54;
+flutter;ios;calculations;809;56;61;
+flutter;ios;calculations;814;53;69;
+flutter;ios;calculations;807;57;62;
+flutter;ios;calculations;811;54;65;
 
 
 framework;platform;app;time;cpu_method_time_fetchLocation;ram_MB
-flutter;android;gps;1408;3.31;56.2
-flutter;android;gps;1445;2.62;54.4
-flutter;android;gps;4112;6.73;56.6
-flutter;android;gps;1425;11.71;56.3
-flutter;android;gps;1402;9.78;55.9
-flutter;android;gps;1445;2.86;59.1
-flutter;android;gps;4083;6.58;59.2
-flutter;android;gps;4285;8.04;57.7
-flutter;android;gps;4040;6.22;57.2
-flutter;android;gps;1231;9.04;57.2
+flutter;android;gps;1408;3.31;56.2;
+flutter;android;gps;1445;2.62;54.4;
+flutter;android;gps;4112;6.73;56.6;
+flutter;android;gps;1425;11.71;56.3;
+flutter;android;gps;1402;9.78;55.9;
+flutter;android;gps;1445;2.86;59.1;
+flutter;android;gps;4083;6.58;59.2;
+flutter;android;gps;4285;8.04;57.7;
+flutter;android;gps;4040;6.22;57.2;
+flutter;android;gps;1231;9.04;57.2;
+
+framework;platform;app;time;cpu_method_cpu_percent;ram_MB
+flutter;ios;gps;1255;86;76;
+flutter;ios;gps;1352;75;75;
+flutter;ios;gps;1522;87;78;
+flutter;ios;gps;1342;89;69;
+flutter;ios;gps;1443;79;72;
+flutter;ios;gps;1445;77;68;
+flutter;ios;gps;1651;65;73;
+flutter;ios;gps;1534;81;69;
+flutter;ios;gps;1632;76;71;
+flutter;ios;gps;1563;65;72;
 
 
 framework;platform;app;time;cpu_method_time_LoadAndPlayVideo;ram_MB
@@ -62,3 +88,14 @@ flutter;android;video;268;41.04;64.3
 flutter;android;video;247;15.78;64.5
 flutter;android;video;238;19.01;64.5
 
+framework;platform;app;time;cpu_method_cpu_percent;ram_MB
+flutter;ios;video;194; 67; 85
+flutter;ios;video;235; 73; 83
+flutter;ios;video;215; 54; 92
+flutter;ios;video;297; 37; 78
+flutter;ios;video;147; 58; 89
+flutter;ios;video;256; 66; 103
+flutter;ios;video;235; 36; 94
+flutter;ios;video;184; 41; 84
+flutter;ios;video;228; 57; 84
+flutter;ios;video;235; 59; 91
