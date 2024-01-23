@@ -45,6 +45,7 @@ def plot_data(data, app, resource):
     ax.legend()
 
     plt.tight_layout()
+    plt.savefig(f'./plots/{resource2label(resource)}_{app}')
     plt.show()
 
 
