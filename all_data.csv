@@ -270,42 +270,42 @@ flutter;ios;video;235;36;94
 flutter;ios;video;184;41;84
 flutter;ios;video;228;57;84
 flutter;ios;video;235;59;91
-ios;ios;calculations;41.7820;2;9.3
-ios;ios;calculations;37.5279;1;9.4
-ios;ios;calculations;37.5729;4;9.4
-ios;ios;calculations;37.2359;4;9.4
-ios;ios;calculations;36.1549;2;9.5
-ios;ios;calculations;37.5279;3;9.4
-ios;ios;calculations;34.9620;4;9.3
-ios;ios;calculations;35.4809;4;9.2
-ios;ios;calculations;36.7980;2;9.5
-ios;ios;calculations;35.1342;3;9.4
-ios;ios;animation;5040; 1; 9.7
-ios;ios;animation;5849; 2; 9.8
-ios;ios;animation;5540; 1; 9.7
-ios;ios;animation;5021; 2; 9.7
-ios;ios;animation;5749; 1; 9.6
-ios;ios;animation;5230; 1; 9.7
-ios;ios;animation;5234; 2; 9.8
-ios;ios;animation;5432; 1; 9.4
-ios;ios;animation;5211; 2; 9.7
-ios;ios;animation;5312; 1; 9.5
-ios;ios;video;116.3;0;10
-ios;ios;video;107.7;0;10
-ios;ios;video;107.4;0;10
-ios;ios;video;106.7;0;11
-ios;ios;video;106.7;0;10
-ios;ios;video;107.4;0;10
-ios;ios;video;108.2;0;10
-ios;ios;video;109.7;0;9
-ios;ios;video;109.6;0;11
-ios;ios;video;110.4;0;10
-ios;ios;gps;47.39;0;8.8
-ios;ios;gps;47.77;0;8.8
-ios;ios;gps;54.04;0;8.8
-ios;ios;gps;53.37;0;8.9
-ios;ios;gps;53.94;0;8.7
-ios;ios;gps;46.40;0;8.8
-ios;ios;gps;49.03;0;8.7
-ios;ios;gps;49.81;0;8.8
-ios;ios;gps;50.81;0;8.8
+ios;ios;calculations;41.7820;2;19.3
+ios;ios;calculations;37.5279;1;19.4
+ios;ios;calculations;37.5729;4;19.4
+ios;ios;calculations;37.2359;4;19.4
+ios;ios;calculations;36.1549;2;19.5
+ios;ios;calculations;37.5279;3;19.4
+ios;ios;calculations;34.9620;4;19.3
+ios;ios;calculations;35.4809;4;19.2
+ios;ios;calculations;36.7980;2;19.5
+ios;ios;calculations;35.1342;3;19.4
+ios;ios;animation;5040; 1; 19.7
+ios;ios;animation;5849; 2; 19.8
+ios;ios;animation;5540; 1; 19.7
+ios;ios;animation;5021; 2; 19.7
+ios;ios;animation;5749; 1; 19.6
+ios;ios;animation;5230; 1; 19.7
+ios;ios;animation;5234; 2; 19.8
+ios;ios;animation;5432; 1; 19.4
+ios;ios;animation;5211; 2; 19.7
+ios;ios;animation;5312; 1; 19.5
+ios;ios;video;116.3;0;20
+ios;ios;video;107.7;0;20
+ios;ios;video;107.4;0;20
+ios;ios;video;106.7;0;21
+ios;ios;video;106.7;0;20
+ios;ios;video;107.4;0;20
+ios;ios;video;108.2;0;20
+ios;ios;video;109.7;0;19
+ios;ios;video;109.6;0;21
+ios;ios;video;110.4;0;20
+ios;ios;gps;47.39;0;18.8
+ios;ios;gps;47.77;0;18.8
+ios;ios;gps;54.04;0;18.8
+ios;ios;gps;53.37;0;18.9
+ios;ios;gps;53.94;0;18.7
+ios;ios;gps;46.40;0;18.8
+ios;ios;gps;49.03;0;18.7
+ios;ios;gps;49.81;0;18.8
+ios;ios;gps;50.81;0;18.8
