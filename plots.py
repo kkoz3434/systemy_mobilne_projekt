@@ -47,7 +47,7 @@ def plot_data(data, app, resource):
     plt.tight_layout()
     plt.show()
 
-plot_data(data, 'gps', 'cpu')
-plot_data(data, 'animation', 'cpu')
-plot_data(data, 'video', 'cpu')
-plot_data(data, 'calculations', 'cpu')
+
+for res in ['time', 'ram', 'cpu']:
+    for app in ['gps', 'animation', 'video', 'calculations']:
+        plot_data(data, app, res)
